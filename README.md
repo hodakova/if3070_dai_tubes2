@@ -1,7 +1,12 @@
-Tugas Besar 2 IF3070 Dasar Inteligensi Artifisial
-Implementasi Algoritma Pembelajaran Mesin
+## Tugas Besar 2 IF3070 Dasar Inteligensi Artifisial
+# Implementasi Algoritma Pembelajaran Mesin
 
-oleh:
+Repository ini disusun dengan tujuan mendapatkan pengalaman langsung dalam menerapkan algoritma pembelajaran mesin pada permasalahan nyata.
+
+## Cara setup dan run program
+
+## Pembagian Tugas
+Disusun oleh kelompok 32 Lesgo dengan rincian NIM dan nama anggota kelompok serta pembagian tugasnya sebagai berikut:
 NIM | Nama
 --- | ---
 18222005 | Matthew Lim
