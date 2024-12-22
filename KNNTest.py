@@ -1,7 +1,7 @@
 from sklearn.datasets import load_iris, load_wine
 from sklearn.model_selection import train_test_split
 
-from KNearestNeighbor import KNearestNeighbor
+from KNearestNeighbor import KNearestNeighborUpdated
 import numpy as np
 
 
@@ -9,7 +9,7 @@ def test_knn():
     data = load_iris()
     X, y = data.data, data.target
     X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
-    knn = KNearestNeighbor()
+    knn = KNearestNeighborUpdated()
     knn.fit(X_train, y_train, max_k=10, num_of_k_values=5)
 
     predictions = knn.predict(X_test)
@@ -23,7 +23,7 @@ def test_knn():
     data = load_wine()
     X, y = data.data, data.target
     X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.3, random_state=27)
-    knn = KNearestNeighbor()
+    knn = KNearestNeighborUpdated()
     knn.fit(X_train, y_train, max_k=10, num_of_k_values=5)
     predictions = knn.predict(X_test)
     print("Test Predictions:", predictions)
